@@ -23,6 +23,7 @@ main {
 }
 #parent {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .contents {
@@ -69,6 +70,6 @@ footer a:hover {
     font-size: 25px;
   }
   #parent {
-    display: inline-block;
+    flex-direction: column;
   }
 }
